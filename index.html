@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="img/icons/icon-72x72.png">
+    <title>Home Page</title>
+</head>
+<body>
+
+    <!-- Start of Navbar -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">
+                <img  src="img/logo.png" alt="Logo">
+            </h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- End Of Navbar -->
+
+
+    <!-- Start of Home Content -->
+    <div class="main-container">
+        <div class="main-slider">
+            <div class="main-title">
+                <h2>Service Worker Test</h2>
+                <p>
+                    A web application manifest, defined in the Web Application Manifest specification, is a JSON text file that provides information about a web application.
+                </p>
+
+                <button id="send" onclick="sendNotification()">Push Notification</button>
+
+            </div>
+        </div>
+    </div>
+    <!-- End of Home Content -->
+
+    <script src="js/script.js"></script>
+</body>
+</html>
